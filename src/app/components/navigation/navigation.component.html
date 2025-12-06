@@ -1,0 +1,210 @@
+<div class="navigation-container1">
+  <div class="navigation-container2">
+    <div class="navigation-container3">
+      <dangerous-html
+        html="<style>
+@media (prefers-reduced-motion: reduce) {
+.navigation__link::after, .navigation__logo::before, .navigation__overlay-link::before {
+  transition: none;
+}
+.navigation__overlay-link {
+  animation: none;
+}
+.navigation__logo:hover .navigation__logo-icon {
+  transform: none;
+}
+}
+</style>"
+      ></dangerous-html>
+    </div>
+  </div>
+  <nav id="mainNav" class="navigation">
+    <div class="navigation__container">
+      <div class="navigation__left">
+        <a href="#">
+          <div class="navigation__link"><span>Новый анализ</span></div>
+        </a>
+        <a href="#">
+          <div class="navigation__link"><span>История</span></div>
+        </a>
+      </div>
+      <a href="#">
+        <div class="navigation__logo">
+          <svg
+            width="24"
+            xmlns="http://www.w3.org/2000/svg"
+            height="24"
+            viewBox="0 0 24 24"
+            class="navigation__logo-icon"
+          >
+            <g
+              fill="none"
+              stroke="currentColor"
+              stroke-width="2"
+              stroke-linecap="round"
+              stroke-linejoin="round"
+            >
+              <path
+                d="M11.017 2.814a1 1 0 0 1 1.966 0l1.051 5.558a2 2 0 0 0 1.594 1.594l5.558 1.051a1 1 0 0 1 0 1.966l-5.558 1.051a2 2 0 0 0-1.594 1.594l-1.051 5.558a1 1 0 0 1-1.966 0l-1.051-5.558a2 2 0 0 0-1.594-1.594l-5.558-1.051a1 1 0 0 1 0-1.966l5.558-1.051a2 2 0 0 0 1.594-1.594zM20 2v4m2-2h-4"
+              ></path>
+              <circle r="2" cx="4" cy="20"></circle>
+            </g>
+          </svg>
+          <span class="section-title navigation__logo-text">COTEL</span>
+        </div>
+      </a>
+      <div class="navigation__right">
+        <a href="#">
+          <div class="navigation__link"><span>Настройки</span></div>
+        </a>
+        <a href="#">
+          <div class="navigation__link navigation__link--cta">
+            <span>Попробовать</span>
+          </div>
+        </a>
+      </div>
+      <button
+        id="navToggle"
+        aria-label="Открыть меню"
+        aria-expanded="false"
+        class="navigation__toggle"
+      >
+        <svg
+          width="24"
+          xmlns="http://www.w3.org/2000/svg"
+          height="24"
+          viewBox="0 0 24 24"
+        >
+          <path
+            d="M4 5h16M4 12h16M4 19h16"
+            fill="none"
+            stroke="currentColor"
+            stroke-width="2"
+            stroke-linecap="round"
+            stroke-linejoin="round"
+          ></path>
+        </svg>
+      </button>
+    </div>
+  </nav>
+  <div id="navOverlay" class="navigation__overlay">
+    <div class="navigation__overlay-header">
+      <a href="#">
+        <div class="navigation__overlay-logo">
+          <svg
+            width="28"
+            xmlns="http://www.w3.org/2000/svg"
+            height="28"
+            viewBox="0 0 24 24"
+            class="navigation__overlay-logo-icon"
+          >
+            <g
+              fill="none"
+              stroke="currentColor"
+              stroke-width="2"
+              stroke-linecap="round"
+              stroke-linejoin="round"
+            >
+              <path
+                d="M11.017 2.814a1 1 0 0 1 1.966 0l1.051 5.558a2 2 0 0 0 1.594 1.594l5.558 1.051a1 1 0 0 1 0 1.966l-5.558 1.051a2 2 0 0 0-1.594 1.594l-1.051 5.558a1 1 0 0 1-1.966 0l-1.051-5.558a2 2 0 0 0-1.594-1.594l-5.558-1.051a1 1 0 0 1 0-1.966l5.558-1.051a2 2 0 0 0 1.594-1.594zM20 2v4m2-2h-4"
+              ></path>
+              <circle r="2" cx="4" cy="20"></circle>
+            </g>
+          </svg>
+          <span class="section-title">COTEL</span>
+        </div>
+      </a>
+      <button
+        id="navClose"
+        aria-label="Закрыть меню"
+        class="navigation__overlay-close"
+      >
+        <svg
+          width="28"
+          xmlns="http://www.w3.org/2000/svg"
+          height="28"
+          viewBox="0 0 24 24"
+        >
+          <path
+            d="m18 6l-12 12M6 6l12 12"
+            fill="none"
+            stroke="currentColor"
+            stroke-width="2"
+            stroke-linecap="round"
+            stroke-linejoin="round"
+          ></path>
+        </svg>
+      </button>
+    </div>
+    <div class="navigation__overlay-content">
+      <a href="#">
+        <div class="navigation__overlay-link"><span>Новый анализ</span></div>
+      </a>
+      <a href="#">
+        <div class="navigation__overlay-link"><span>История</span></div>
+      </a>
+      <a href="#">
+        <div class="navigation__overlay-link"><span>Настройки</span></div>
+      </a>
+      <a href="#">
+        <div class="navigation__overlay-link--cta navigation__overlay-link">
+          <span>
+            Попробовать
+            <span [innerHTML]="rawep07"></span>
+          </span>
+        </div>
+      </a>
+    </div>
+  </div>
+  <div class="navigation-container4">
+    <div class="navigation-container5">
+      <dangerous-html
+        html="<style>
+        @keyframes slideIn {from {opacity: 0;
+transform: translateY(-20px);}
+to {opacity: 1;
+transform: translateY(0);}}
+        </style> "
+      ></dangerous-html>
+    </div>
+  </div>
+  <div class="navigation-container6">
+    <div class="navigation-container7">
+      <dangerous-html
+        html="<script defer data-name='navigation-mobile-menu'>
+(function(){
+  const navToggle = document.getElementById('navToggle')
+  const navClose = document.getElementById('navClose')
+  const navOverlay = document.getElementById('navOverlay')
+
+  function openNav() {
+    navOverlay.style.display = 'block'
+    navToggle.setAttribute('aria-expanded', 'true')
+    document.body.style.overflow = 'hidden'
+  }
+
+  function closeNav() {
+    navOverlay.style.display = 'none'
+    navToggle.setAttribute('aria-expanded', 'false')
+    document.body.style.overflow = ''
+  }
+
+  navToggle.addEventListener('click', openNav)
+  navClose.addEventListener('click', closeNav)
+
+  navOverlay.addEventListener('click', (e) => {
+    if (e.target === navOverlay) {
+      closeNav()
+    }
+  })
+
+  const overlayLinks = navOverlay.querySelectorAll('.navigation__overlay-link')
+  overlayLinks.forEach((link) => {
+    link.addEventListener('click', closeNav)
+  })
+})()
+</script>"
+      ></dangerous-html>
+    </div>
+  </div>
+</div>
